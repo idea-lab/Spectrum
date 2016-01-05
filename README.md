@@ -1,2 +1,2 @@
-# spectrum
+# Spectrum
 Spectrum Wordpress
