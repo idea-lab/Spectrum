@@ -1456,7 +1456,7 @@ padding-left: 15px;
 font-size: 19px;
 }
 .navigator-holder a:hover {
-  background: rgb(210, 63, 80);
+  background: #004ab2;
   color: #fff;
 }
 .navigator-holder {
@@ -1954,7 +1954,7 @@ Widgets
   font-size: 14px;
 }
 .widget_categories li:hover {
-  background: rgb(210, 63, 80);
+  background: #004ab2;
 }
 .widget_categories a:hover {
   color: #fff;
@@ -1967,7 +1967,7 @@ Widgets
   font-size: 30px;
 }
 .error-404 h3, .fourzerofour{
-  color: rgb(210, 63, 80);
+  color: #004ab2;
 }
 .error-404{
   text-align:center;
@@ -2006,7 +2006,7 @@ SlickNav
   -moz-appearance: none;
   appearance: none;
   cursor: pointer;
-  background: rgb(210, 63, 80);
+  background: #004ab2;
   color: #fff;
   padding: 9px;
 }

@@ -467,4 +467,15 @@ jQuery(document).ready(function($) {
     //for menu
      $('.header-wrapper #site-navigation .menu-main-menu-container').addClass('clearfix');
 
+    jQuery('.menu-item-has-children > a').click(function(){
+        var at_this = jQuery(this);
+        if( at_this.hasClass('at-clicked')){
+            return true;
+        };
+        var at_width = jQuery(window).width();
+        if( at_width > 992 && at_width <= 1230 ){
+            at_this.addClass('at-clicked');
+            return false;
+        }
+    });
 });

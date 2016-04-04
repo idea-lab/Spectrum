@@ -99,7 +99,7 @@ endif;
  */
 if ( ! function_exists( 'supermag_date_display' ) ) :
     function supermag_date_display( $format = 'l, F j, Y') {
-        echo esc_html( date( $format ) );
+        echo $time = current_time( $format, $gmt = 1 );
     }
 endif;
 
@@ -182,7 +182,8 @@ if( ! function_exists( 'supermag_breadcrumbs' ) ):
 
             if ( is_category() ) {
                 $thisCat = get_category(get_query_var('cat'), false);
-                if ($thisCat->parent != 0) echo esc_html( get_category_parents($thisCat->parent, TRUE, ' ' . $delimiter . ' ') );
+                if ($thisCat->parent != 0)
+                    echo ( get_category_parents($thisCat->parent, TRUE, ' ' . $delimiter . ' ') );
                 echo $before .  esc_html( single_cat_title('', false) ) . $after;
 
             } elseif ( is_search() ) {

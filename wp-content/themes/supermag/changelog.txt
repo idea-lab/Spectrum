@@ -1,5 +1,8 @@
 == Change log ==
 
+= 1.2.2 =
+* Breadcrumbs issue fixed
+
 = 1.2.1 =
 * Logo and Banner Add Top same level
 
