@@ -30,7 +30,7 @@ Spectrum Wordpress
 
 6. Rename the file to "ab-spectrum.sql"
 
-8. Commit and push
+7. Commit and push
 
 
 
