@@ -24,9 +24,7 @@ Spectrum Wordpress
 3. Click on the database "ab-spectrum" and click on the "Export tab"
 
 4. Type in a name for the template and then click Go 
-
 ![alt text](http://i.imgur.com/H6KpBwI.png "SQL Dump")
-
 5. A .sql file should download
 
 ![alt text](http://i.imgur.com/kOw0XeQ.png "download")
