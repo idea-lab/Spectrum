@@ -14,3 +14,17 @@ Spectrum Wordpress
 5. Go to http://localhost/Spectrum
 
 6. "Log in"
+
+**UPDATING**
+
+1. Open XAMPP
+
+2. Click on the 'admin' button for SQL -- localhost/phpmyadmin should open
+
+3. Click on the database "
+
+![](http://imgur.com/H6KpBwI)
+
+4. 
+
+
