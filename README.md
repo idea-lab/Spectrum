@@ -26,7 +26,7 @@ Spectrum Wordpress
 4. Type in a name for the template and then click Go 
 
 ![alt text](http://i.imgur.com/H6KpBwI.png "SQL Dump")
-5. A .sql file should download: ![alt text](http://i.imgur.com/kOw0XeQ.png "download")
+5. A .sql file should download
 
 6. Rename the file to "ab-spectrum.sql"
 
