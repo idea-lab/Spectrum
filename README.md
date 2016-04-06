@@ -21,10 +21,21 @@ Spectrum Wordpress
 
 2. Click on the 'admin' button for SQL -- localhost/phpmyadmin should open
 
-3. Click on the database "
+3. Click on the database "ab-spectrum" and click on the "Export tab"
 
-![](http://imgur.com/H6KpBwI)
+4. Type in a name for the template and then click Go 
 
-4. 
+![alt text](http://i.imgur.com/H6KpBwI.png "SQL Dump")
+
+5. A .sql file should download
+
+![alt text](http://i.imgur.com/kOw0XeQ.png "download")
+
+6. Rename the file to "ab-spectrum.sql"
+
+7. Commit and push
+
+
+
 
 
