@@ -28,6 +28,8 @@ Spectrum Wordpress
   ![alt text](http://i.imgur.com/H6KpBwI.png "SQL Dump")
 
 5. A .sql file should download
+  
+  ![alt text](http://i.imgur.com/kOw0XeQ.png "download")  
 
 6. Rename the file to "ab-spectrum.sql"
 
