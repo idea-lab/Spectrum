@@ -1,0 +1,1 @@
+lÚW<?php exit; ?>a:1:{s:7:"content";a:1:{i:0;s:51:"C:\xampp\htdocs\Spectrum/wp-content/uploads/2016/04";}}

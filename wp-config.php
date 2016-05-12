@@ -1,7 +1,4 @@
 <?php
-/** Enable W3 Total Cache */
-define('WP_CACHE', true); // Added by W3 Total Cache
-
 /**
  * The base configuration for WordPress
  *
@@ -23,13 +20,13 @@ define('WP_CACHE', true); // Added by W3 Total Cache
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'ab-spectrum');
+define('DB_NAME', 'clanwa5_abrhs');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'clanwa5_abrhs');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', '4[yS)5P20q');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -49,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         'zf9pbewtzhkytusbn5kb2cfiw9lzom1nszdyu8xh5fxgnpiz8xsu85td3ixawojg');
+define('SECURE_AUTH_KEY',  'ew5ruakhz3eiyi29nawhn871q2frqpjeq5bn5b5lhei3jf4lacbgm95rjlelssnp');
+define('LOGGED_IN_KEY',    'c3m0mkwgzfdmh2sqe8j3aytvlsajkg6tdkndttrab1ywsciyruwvpgmwyzivp2eb');
+define('NONCE_KEY',        '5xjxdfgtzanw51k7svus1pryfd96fmyokayr8pecbdrhz6ihqlpopatz4ovzelgl');
+define('AUTH_SALT',        'yq3twevs64mhqkhqrccbphkjq4evntzdgmyrwl32w2w4pbpktsiqrvxysmsstatn');
+define('SECURE_AUTH_SALT', 'o7kshrizdhg769aypbd8aipm10ra7sngah5rs9ahay2j3bzjltigoefefoubl6vz');
+define('LOGGED_IN_SALT',   'w6spngu2q6nrzjvhlqgpc3ws4zpuwcb5ymkjm8mzhi5wugcuovayzznq33wtc9od');
+define('NONCE_SALT',       'bmie8ddfntzdsykzuw0fqe1x4xubc9lguhnfyu9njzpiyapvfopiq62es5a6cukz');
 
 /**#@-*/
 
@@ -81,6 +78,15 @@ $table_prefix  = 'wp_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define('WP_DEBUG', false);
+
+/* Multisite */
+define( 'WP_ALLOW_MULTISITE', true );
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', false);
+define('DOMAIN_CURRENT_SITE', 'clanwallace.net');
+define('PATH_CURRENT_SITE', '/spectrum/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
 
 /* That's all, stop editing! Happy blogging. */
 
